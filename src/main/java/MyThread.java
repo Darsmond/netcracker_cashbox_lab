@@ -3,7 +3,7 @@ import java.util.Queue;
 public class MyThread implements Runnable { //Operator class
 
     private Bank bank;
-    private final Queue<Account> queue;
+    private final Queue<Account> queue; 
 
     MyThread(Bank bank, Queue queue) {
         this.bank = bank;
